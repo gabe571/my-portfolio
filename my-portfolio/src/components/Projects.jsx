@@ -1,5 +1,7 @@
 import React from 'react'
 
+import PixtureBox from '../assests/projects/pixturebox.png'
+
 const Projects = () => {
     return (
         <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
@@ -8,9 +10,10 @@ const Projects = () => {
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-red-600'>Projects</p>
                     <p className='py-6'>// Checkout some of my recent projects</p>
                 </div>
-
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                    <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{ backgroundImage: `url(${PixtureBox})` }}>
+                    <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                        <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        </div>
                     </div>
                     <span>
 
