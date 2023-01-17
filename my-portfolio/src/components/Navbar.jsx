@@ -5,6 +5,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Home from './Home'
 import { Link } from 'react-scroll'
 
+
+
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)

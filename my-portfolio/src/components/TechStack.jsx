@@ -31,10 +31,6 @@ const Skills = () => {
                         <img className='w-20 mx-auto' src={REACT} alt="REACT icon" />
                         <p className='my-4'>REACT</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={RUBYONRAILS} alt="RUBYONRAILS icon" />
-                        <p className='my-4'>RUBY ON RAILS</p>
-                    </div>
                 </div>
             </div>
         </div>
